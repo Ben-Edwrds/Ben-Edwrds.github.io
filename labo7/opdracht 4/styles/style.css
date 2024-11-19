@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 300px;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+thead th {
+    background-color: rgb(35, 37, 70);
+    color: rgb(200, 190, 240);
+}
+
+.maand-heading {
+    background-color: rgb(170, 170, 200);
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+tbody td:first-child {
+    background-color: rgb(255, 220, 220);
+}
+
+tbody td:last-child {
+    background-color: rgb(255, 220, 220);
+}
+
+.vorige-maand, .volgende-maand {
+    background-color: rgb(220, 220, 220);
+}
+
+.vrije-dag {
+    background-color: rgb(250, 120, 120);
+}
+
+.speciale-dag {
+    color: rgb(15, 15, 255);
+}
