@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main > article{
+    border: 2px solid dodgerblue;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+}
+
+article > p > img{
+    float: right;
+}
+
+article:nth-of-type(odd) img {
+    float: left;
+}
+article:nth-of-type(even) img {
+    float: right;
+}
