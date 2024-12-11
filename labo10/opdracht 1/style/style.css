@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+}
+body {
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+.container {
+    margin: 0 auto;
+}
+.outside, .inside {
+    text-align: center;
+    height: 100px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+}
+.outside {
+    background-color: #dbdfe5;
+}
+.inside {
+    background-color: #abb1b8;
+}

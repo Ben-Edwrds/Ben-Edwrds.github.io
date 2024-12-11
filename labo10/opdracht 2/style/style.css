@@ -1,0 +1,25 @@
+.outside, .inside {
+    text-align: center;
+    height: 100px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+}
+.outside {
+    background-color: #dbdfe5;
+}
+.inside {
+    background-color: #abb1b8;
+}
+
+@media (min-width: 768px) {
+    .row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .row {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
