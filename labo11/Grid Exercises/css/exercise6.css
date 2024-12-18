@@ -2,6 +2,7 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
+    grid-gap: 10px;
 }
 
 main .block{
@@ -10,7 +11,6 @@ main .block{
     font-size: 4em;
     font-weight:bold;
     text-align:center;
-    margin: 5px;
 }
 
 .block.block1{

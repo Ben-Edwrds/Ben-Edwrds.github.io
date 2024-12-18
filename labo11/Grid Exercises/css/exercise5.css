@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
+    grid-gap: 10px;
 }
 
 .container .block{
@@ -10,7 +11,7 @@
     font-size: 4em;
     font-weight:bold;
     text-align:center;
-    margin: 5px;
+
 }
 
 .block.block1{
