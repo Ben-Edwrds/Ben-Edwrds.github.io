@@ -1,0 +1,72 @@
+body
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    font-size: 1.2em;
+    font-family: Verdana, Helvetica, Arial;
+}
+header img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+h1, h2 {
+    color: rgb(0, 126, 126);
+}
+h1 {
+    font-size: 150%;
+}
+h2 {
+    font-size: 130%;
+}
+.weekly {
+    display: block;
+    float: right;
+    align-items: center;
+    text-align: center;
+    border: 1px solid blue;
+    width: 30%;
+}
+.weekly p {
+    margin: 1em;
+}
+.weekly h1 {
+    color: black;
+    text-align: center;
+}
+.weekly h2 {
+    color: yellow;
+}
+.weekly a:hover {
+    background: sandybrown;
+}
+article > h1
+{
+    color: red;
+}
+article > h2
+{
+    color: blue;
+}
+.left {
+    width: 70%;
+}
+
+footer {
+    font-size: 50%;
+}
+#guarantee {
+    margin: 30px;
+    padding: 20px;
+    color: #444444;
+    background-color: #a7cece;
+    border-style: dotted;
+    border-width: 3px;
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
