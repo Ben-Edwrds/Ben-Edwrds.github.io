@@ -1,0 +1,43 @@
+### **Opgave: Persoonlijke Takenlijst (To-Do List)**  
+
+Maak een JavaScript-programma dat een gebruiker helpt om een **to-do lijst** te beheren. Je moet gebruik maken van **alle concepten** uit de leerstof:  
+
+#### **Stap 1: Start het programma**  
+- Toon een welkomstbericht met `alert()`.  
+- Vraag de naam van de gebruiker met `prompt()`.  
+- Toon een aangepast begroetingsbericht.  
+
+#### **Stap 2: Werken met een array**  
+- Maak een **lege array** om taken op te slaan.  
+
+#### **Stap 3: Taken toevoegen (loops & arrays)**  
+- Gebruik een **loop** om taken te verzamelen via `prompt()`.  
+- Sla elke taak op in de array.  
+- Stop de loop als de gebruiker geen taak meer toevoegt.  
+
+#### **Stap 4: Taken weergeven**  
+- Geef de lijst met taken weer in de **console** met een **loop**.  
+
+#### **Stap 5: Taken sorteren**  
+- Vraag de gebruiker of hij de taken **alfabetisch wil sorteren** (`confirm()`).  
+- Sorteer de taken indien nodig.  
+
+#### **Stap 6: Taken verwijderen**  
+- Vraag de gebruiker of hij een taak wil verwijderen.  
+- Laat de gebruiker een taaknummer ingeven.  
+- **Verwijder** de taak uit de array.  
+
+#### **Stap 7: Eindresultaat tonen**  
+- Toon de bijgewerkte takenlijst opnieuw in de **console**.  
+
+**Gebruik:**  
+✅ **Dialoogvensters** (`alert()`, `prompt()`, `confirm()`)  
+✅ **Functies & properties** (zoals `.push()`, `.sort()`, `.splice()`)  
+✅ **Variabelen & datatypes** (arrays, strings, numbers)  
+✅ **Loops** (`for`, `while`)  
+✅ **Sorteren** (`sort()`)  
+
+**Uitdaging:**  
+Breid het programma uit zodat de gebruiker een taak als “voltooid” kan markeren.  
+
+Succes met de oefening! 🚀
