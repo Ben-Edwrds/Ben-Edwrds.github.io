@@ -1,0 +1,59 @@
+**JavaScript Toetsvoorbereiding: Takenbeheer Systeem**  
+*(Oefening op Hoofdstukken 1 t.e.m. 5)*  
+
+---
+
+### **Opgave:**  
+Schrijf een **JavaScript-programma** waarmee een gebruiker een lijst van taken kan beheren. Dit programma moet **alle concepten** uit de leerstof toepassen.  
+
+---
+
+### **Stap 1: Welkomstscherm**  
+- Toon een **welkomstbericht** aan de gebruiker.  
+- Vraag de gebruiker om zijn **naam in te voeren** en toon een gepersonaliseerde begroeting.  
+
+---
+
+### **Stap 2: Taken invoeren**  
+- Maak een **lege array** om de taken in op te slaan.  
+- Vraag de gebruiker om **meerdere taken** in te voeren.  
+- Blijf vragen tot de gebruiker **niets meer invoert**.  
+
+---
+
+### **Stap 3: Taken weergeven**  
+- Toon de **volledige lijst** van taken in de **console**.  
+- Zorg dat elke taak een **nummer** krijgt (1, 2, 3, ...).  
+
+---
+
+### **Stap 4: Taken sorteren**  
+- Vraag de gebruiker of hij de taken **alfabetisch** wil sorteren.  
+- **Voer de sortering uit** als hij akkoord gaat.  
+
+---
+
+### **Stap 5: Taak verwijderen**  
+- Vraag de gebruiker of hij een taak wil verwijderen.  
+- Laat hem een **nummer** kiezen en verwijder de juiste taak.  
+- Toon de **nieuwe lijst** van taken.  
+
+---
+
+### **Stap 6: Extra uitdaging (optioneel)**  
+- Voeg een **systeem toe om taken als 'voltooid' te markeren**.  
+- Laat voltooide taken op het einde van de lijst zetten.  
+
+---
+
+### **Wat je moet toepassen:**  
+✅ **Dialoogvensters** (`alert()`, `prompt()`, `confirm()`)  
+✅ **Variabelen & datatypes** (arrays, strings, numbers)  
+✅ **Loops** (`for`, `while`)  
+✅ **Sorteren**  
+✅ **Verwijderen van elementen uit een array**  
+✅ **Objecten en properties (optioneel voor voltooid taken)**  
+
+**⚠️** *Je moet zelf weten welke functies je nodig hebt!*  
+
+**Succes! 🚀**
