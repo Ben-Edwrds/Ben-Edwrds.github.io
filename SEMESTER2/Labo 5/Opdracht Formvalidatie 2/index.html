@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Validation</title>
+</head>
+<body>
+<section>
+    <label for="txtFirstName">First Name: </label>
+    <input type="text" id="txtFirstName"/>
+    <span id="errorFirstName"></span>
+
+    <label for="txtLastName">Last Name: </label>
+    <input type="text" id="txtLastName" required/>
+    <span id="errorLastName"></span>
+
+    <label for="dateBirth">Birth Date: </label>
+    <input type="date" id="dateBirth" required/>
+    <span id="errorBirthDate"></span>
+
+    <label for="txtEmail">Email: </label>
+    <input type="text" id="txtEmail" required/>
+    <span id="errorEmail"></span>
+
+    <label for="numChildren">Number of Children: </label>
+    <input type="number" id="numChildren"/>
+    <span id="errorChildren"></span>
+
+    <input type="button" id="btnSubmit" value="Submit"/>
+</section>
+
+<script type="text/javascript" src="scripts/code.js"></script>
+</body>
+</html>
